@@ -9,7 +9,7 @@ public class ShoppingList {
                 "Macbook M5 Pro",
                 "Toyota Corolla",
                 "Honda Civic",
-                "Apples",
+                "Airbus B747",
                 "Airbus A380",
                 "Milk",
                 "Minecraft Java Edition",
@@ -17,7 +17,8 @@ public class ShoppingList {
                 "Boba",
                 "Green Tea"
         );
-        System.out.println(shoppingList);
+        System.out.println("All items in your shopping list: " + shoppingList);
+        System.out.println(shoppingList.size());
 
         for(int i = 0; i < shoppingList.size(); i++){
             System.out.println("Next item on your shopping list is: " + shoppingList.get(i));
