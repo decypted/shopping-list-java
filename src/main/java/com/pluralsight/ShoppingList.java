@@ -9,7 +9,7 @@ public class ShoppingList {
                 "Macbook M5 Pro",
                 "Toyota Corolla",
                 "Honda Civic",
-                "Airbus B747",
+                "Boeing B747",
                 "Airbus A380",
                 "Milk",
                 "Minecraft Java Edition",
