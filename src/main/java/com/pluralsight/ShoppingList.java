@@ -19,7 +19,19 @@ public class ShoppingList {
         );
         System.out.println("All items in your shopping list: " + shoppingList);
         System.out.println(shoppingList.size());
-
+//        Intended way of doing the list:
+        System.out.println("=======SHOPPING LIST VIA PRINTIN======");
+        System.out.println("Oranges");
+        System.out.println("Grapes");
+        System.out.println("Celcius Energy Drink");
+        System.out.println("Monster");
+        System.out.println("Coffee");
+        System.out.println("Beans");
+        System.out.println("Bacon eggs & cheese");
+        System.out.println("Lays chips");
+        System.out.println("Rufus");
+        System.out.println("Snapple");
+        System.out.println("=======END OF LIST VIA PRINTIN======");
         for(int i = 0; i < shoppingList.size(); i++){
             System.out.println("Next item on your shopping list is: " + shoppingList.get(i));
 
