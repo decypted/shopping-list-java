@@ -4,7 +4,7 @@ import java.util.List;
 
 
 public class ShoppingList {
-    public static void main(String[] arg) {
+    public static void main(String[] arg) throws InterruptedException {
         List<String> shoppingList = List.of(
                 "Macbook M5 Pro",
                 "Toyota Corolla",
@@ -33,6 +33,7 @@ public class ShoppingList {
         System.out.println("Snapple");
         System.out.println("=======END OF LIST VIA PRINTIN======");
         for(int i = 0; i < shoppingList.size(); i++){
+            Thread.sleep(350);
             System.out.println("Next item on your shopping list is: " + shoppingList.get(i));
 
         }
