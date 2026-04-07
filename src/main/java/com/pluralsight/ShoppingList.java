@@ -23,7 +23,7 @@ public class ShoppingList {
         System.out.println("=======SHOPPING LIST VIA PRINTIN======");
         System.out.println("Oranges");
         System.out.println("Grapes");
-        System.out.println("Celcius Energy Drink");
+        System.out.println("Celsius Energy Drink");
         System.out.println("Monster");
         System.out.println("Coffee");
         System.out.println("Beans");
